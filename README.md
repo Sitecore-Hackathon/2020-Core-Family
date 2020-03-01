@@ -15,7 +15,7 @@ Recreating existing Sitecore Hackathon page using Sitecore SXA
 
 ## Installation
 
-1. Use the Sitecore Installation wizard to install the [package](../sc.package/LastPackage.zip)
+1. Use the Sitecore Installation wizard to install the [package](sc.package/LastPackage.zip)
 2. Then, Publish Hackathon.Project.Website to the webroot
 3. After that Sitecore site should be published to web as well.
 
@@ -36,7 +36,7 @@ Site Features:
 
 1. Home Page:
 
-![Test](images/main.PNG)
+![Test](documentation/images/main.PNG)
 
 Home page has the following parts that can be managed in Experience Manager:
 
@@ -44,13 +44,13 @@ Jumbotron which includes A title, A youtube link, A description and Shows date o
 
 - Upcoming Hackathon message:
 
-![Test](images/main-2.PNG)
+![Test](documentation/images/main-2.PNG)
 
 Message section has a title, description, header and a message Image.
 
 - Registration form:
 
-![Test](images/main-3.PNG)
+![Test](documentation/images/main-3.PNG)
 
 This section has a message part and a custom form. Users should enter Name, Email and Country information. 
 
@@ -59,13 +59,13 @@ You should publish the team.
 
 - Hackathon List:
 
-![Test](images/main-4.PNG)
+![Test](documentation/images/main-4.PNG)
 
 Content managers can add multiple hackathons and assign one of them on the home page to enable it. All hackathons will be listed in this.
 
 2. Hackathon detail page:
 
-![Test](images/main-5.PNG)
+![Test](documentation/images/main-5.PNG)
 
 This page has the following parts:
 
