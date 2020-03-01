@@ -34,7 +34,7 @@ Site Features:
 
 1. Home Page:
 
-![](/images/main.png)
+![Test](images/main.PNG)
 
 Home page has the following parts that can be managed in Experience Manager:
 
@@ -42,9 +42,13 @@ Jumbotron which includes A title, A youtube link, A description and Shows date o
 
 - Upcoming Hackathon message:
 
+![Test](images/main-2.PNG)
+
 Message section has a title, description, header and a message Image.
 
 - Registration form:
+
+![Test](images/main-3.PNG)
 
 This section has a message part and a custom form. Users should enter Name, Email and Country information. 
 
@@ -52,6 +56,8 @@ After the submit a new Team item is created and related to the upcoming event. B
 You should publish the team.
 
 - Hackathon List:
+
+![Test](images/main-4.PNG)
 
 Content managers can add multiple hackathons and assign one of them on the home page to enable it. All hackathons will be listed in this.
 
