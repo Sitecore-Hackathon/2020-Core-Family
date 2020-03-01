@@ -34,6 +34,8 @@ Site Features:
 
 1. Home Page:
 
+![](/images/main.png)
+
 Home page has the following parts that can be managed in Experience Manager:
 
 Jumbotron which includes A title, A youtube link, A description and Shows date of the upcoming Sitecore Hackathon.
