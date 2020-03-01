@@ -15,7 +15,7 @@ Recreating existing Sitecore Hackathon page using Sitecore SXA
 
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
-1. Use the Sitecore Installation wizard to install the [package](#sc.package/LastPackage.zip)
+1. Use the Sitecore Installation wizard to install the [package](../sc.package/LastPackage.zip)
 2. Then, Publish the website to the webroot
 
 Package should be imported first.
