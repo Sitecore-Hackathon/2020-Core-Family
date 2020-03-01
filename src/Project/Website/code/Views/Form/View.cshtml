@@ -1,0 +1,20 @@
+﻿
+
+@using (Html.BeginForm("Index", "Form", FormMethod.Post, new { @class = "center-block s-promo-block-v2__form g-width-100-percent--xs g-width-400--sm g-bg-color--dark-light g-padding-x-50--xs g-padding-y-80--xs g-radius--4" }))
+{
+    <div class="g-text-center--xs g-margin-b-40--xs">
+        <h2 class="g-font-size-30--xs g-color--white">Register Hackathon</h2>
+    </div>
+    <div class="g-margin-b-40--xs">
+        <input type="text" class="form-control s-form-v3__input" name="name" placeholder="* Name">
+    </div>
+    <div class="g-margin-b-40--xs">
+        <input type="email" class="form-control s-form-v3__input" name="email" placeholder="* Email">
+    </div>
+    <div class="g-margin-b-40--xs">
+        <input type="text" class="form-control s-form-v3__input"  name="country" placeholder="* Country">
+    </div>
+    <div class="g-text-center--xs">
+        <button type="submit" class="text-uppercase btn-block s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-50--xs g-margin-b-20--xs">Join Now</button>
+    </div>
+}
