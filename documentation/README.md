@@ -63,6 +63,8 @@ Content managers can add multiple hackathons and assign one of them on the home 
 
 2. Hackathon detail page:
 
+![Test](images/main-5.PNG)
+
 This page has the following parts:
 
 Hackathon detail:

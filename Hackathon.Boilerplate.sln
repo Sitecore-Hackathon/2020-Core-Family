@@ -30,6 +30,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83
 		documentation\images\main-2.PNG = documentation\images\main-2.PNG
 		documentation\images\main-3.PNG = documentation\images\main-3.PNG
 		documentation\images\main-4.PNG = documentation\images\main-4.PNG
+		documentation\images\main-5.PNG = documentation\images\main-5.PNG
 		documentation\images\main.PNG = documentation\images\main.PNG
 	EndProjectSection
 EndProject

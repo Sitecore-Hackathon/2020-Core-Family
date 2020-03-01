@@ -1,38 +1,83 @@
 ![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo")
 
-# Submission Boilerplate
-
-Welcome to Sitecore Hackathon 2020.
-
-The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2020/
-
-The purpose of this repository is to provide a sample which shows how to structure the Hackathon submissions.
+# Documentation
 
 
-## Entry Submission Requirements 
+## Summary
 
-All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on **Saturday  February 29th 2020 at 8PM EST**. The modules should be based on [Sitecore 9.3 (Initial Release)](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/93/Sitecore_Experience_Platform_93_Initial_Release.aspx).
+**Category:** Sitecore Hackathon Website
 
-**Failure to meet any of the requirements will result in automatic disqualification.** Please reach out to any of the organisers or judges if you require any clarification.
+Recreating existing Sitecore Hackathon page using Sitecore SXA
 
-- Sitecore 9.3 (Initial Release) Module (Module install package)
-   - An installation Sitecore Package (`.zip` or `.update`)
+## Pre-requisites
 
-- Module code in a public Git source repository. We will be judging (amongst other things):
-  - Cleanliness of code
-  - Commenting where necessary
-  - Code Structure
-  - Standard coding standards & naming conventions
+- Sitecore SXA should be installed
 
-- Precise and Clear Installation Instructions document (1 – 2 pages)
-- Module usage documentation on [Readme.md](documentation) file on the Git Repository (2 – 5 pages)
-  - Module Purpose
-  - Module Sitecore Hackathon Category
-  - How does the end user use the Module?
-  - Screenshots, etc.
+## Installation
 
-- Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)
+1. Use the Sitecore Installation wizard to install the [package](../sc.package/LastPackage.zip)
+2. Then, Publish Hackathon.Project.Website to the webroot
+3. After that Sitecore site should be published to web as well.
 
-  - What problem was solved
-  - How did you solve it
-  - What is the end result
+We have 1 Project in our solution, it includes our frontend folder as well. It is required for styling SXA components
+After that Sitecore site should be published to web as well.
+
+## Configuration
+
+We have included all of the required SXA Tenant and our custom templates to our package. So the package should create following items:
+ 1. master:/sitecore/content/Hackathon
+ 2. master:/sitecore/layout/Renderings/Project/Hackathon
+ 3. master:/sitecore/media library/Project/Hackathon
+ 4. master:/sitecore/media library/Themes/Hackathon
+ 5. master:/sitecore/templates/Project/Hackathon
+
+## Usage
+Site Features:
+
+1. Home Page:
+
+![Test](images/main.PNG)
+
+Home page has the following parts that can be managed in Experience Manager:
+
+Jumbotron which includes A title, A youtube link, A description and Shows date of the upcoming Sitecore Hackathon.
+
+- Upcoming Hackathon message:
+
+![Test](images/main-2.PNG)
+
+Message section has a title, description, header and a message Image.
+
+- Registration form:
+
+![Test](images/main-3.PNG)
+
+This section has a message part and a custom form. Users should enter Name, Email and Country information. 
+
+After the submit a new Team item is created and related to the upcoming event. But not published. To approve and show the team,
+You should publish the team.
+
+- Hackathon List:
+
+![Test](images/main-4.PNG)
+
+Content managers can add multiple hackathons and assign one of them on the home page to enable it. All hackathons will be listed in this.
+
+2. Hackathon detail page:
+
+![Test](images/main-5.PNG)
+
+This page has the following parts:
+
+Hackathon detail:
+
+- Has Hackathon title, requirements and image.
+
+- Teams:
+
+Registered teams will be visible here after the publish. 
+
+
+## Video
+
+[Core Family](https://youtu.be/KznyIta9H-A) 
